@@ -1,4 +1,4 @@
 Александра Пендовска 203089
 
 Central Flow Graph:
-<img src="/Users/aleksandrapendovska/Downloads/si lab2.jpg" alt="Alt text">
+<img src="file:///Users/aleksandrapendovska/Downloads/si%20lab2.jpg">
