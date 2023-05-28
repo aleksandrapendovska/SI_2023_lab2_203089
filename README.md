@@ -1,5 +1,9 @@
 # Александра Пендовска 203089
 
-## Central Flow Graph:
+## 2. Central Flow Graph:
 
-![si lab2](https://github.com/aleksandrapendovska/SI_2023_lab2_203089/assets/128921508/f7ffae51-f75c-499f-bc54-4a9a49eb1245)
+![si lab2 drawio](https://github.com/aleksandrapendovska/SI_2023_lab2_203089/assets/128921508/fd8438c1-3f07-483f-8567-df15034aa179)
+
+
+## 3. Цикломатска комплексност:
+Цикломатската комплексност на овој граф е 11. Ја пресметав со помош на формулата P + 1. P (предикатни јазли) е 10, 10 + 1=11.
