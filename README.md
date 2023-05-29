@@ -10,4 +10,4 @@
 
 
 ## 4. Every Branch:
-<img width="786" alt="every branch" src="https://github.com/aleksandrapendovska/SI_2023_lab2_203089/assets/128921508/0c316611-e6e6-48ac-b4f6-0c9ac7ea4a10">
+<img width="599" alt="every branchh" src="https://github.com/aleksandrapendovska/SI_2023_lab2_203089/assets/128921508/040af9cc-3de4-45a2-8130-ceb14b75c3f7">
