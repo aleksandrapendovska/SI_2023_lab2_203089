@@ -11,3 +11,25 @@
 
 ## 4. Every Branch:
 <img width="599" alt="every branchh" src="https://github.com/aleksandrapendovska/SI_2023_lab2_203089/assets/128921508/040af9cc-3de4-45a2-8130-ceb14b75c3f7">
+
+## 5. Multiple Condition
+if(user==null || user.getPassword()==null || user.getEmail()==null)
+**Possible conditions:**
+
+1. T || X || X (user=null, password and email anything)
+- null враќа true, па другите нема потреба да се проверуваат.
+
+`
+List<User> users = new ArrayList<>();
+User user = null;
+assertThrows(RuntimeException.class, () -> SILab2.function(user, users));
+`
+
+2. F || T || X (user not null, password=null, email anything)
+- user не е null односно е false, password е null односно true, email нема потреба да се проверува, може да биде било што.
+
+3. F || F || T (user и password not null, email=null)
+- user и password не се null односно се false, email е null односно true.
+
+4. F || F || F (сите not null)
+- единствен случај во кој условот не е исполнет.
