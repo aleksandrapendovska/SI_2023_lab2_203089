@@ -19,11 +19,11 @@ if(user==null || user.getPassword()==null || user.getEmail()==null)
 1. T || X || X (user=null, password and email anything)
 - null враќа true, па другите нема потреба да се проверуваат.
 
-`
+```
 List<User> users = new ArrayList<>();
 User user = null;
 assertThrows(RuntimeException.class, () -> SILab2.function(user, users));
-`
+```
 
 2. F || T || X (user not null, password=null, email anything)
 - user не е null односно е false, password е null односно true, email нема потреба да се проверува, може да биде било што.
