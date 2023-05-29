@@ -21,15 +21,35 @@ if(user==null || user.getPassword()==null || user.getEmail()==null)
 
 ```
 List<User> users = new ArrayList<>();
+RuntimeException ex;
 User user = null;
-assertThrows(RuntimeException.class, () -> SILab2.function(user, users));
+ex = assertThrows(RuntimeException.class, () -> SILab2.function(user, users));
+assertTrue(ex.getMessage().contains("Mandatory information missing!"));
 ```
 
 2. F || T || X (user not null, password=null, email anything)
 - user не е null односно е false, password е null односно true, email нема потреба да се проверува, може да биде било што.
 
+```
+User user1 = new User("abc", null, "abc@gmail.com");
+ex = assertThrows(RuntimeException.class, () -> SILab2.function(user1, users));
+assertTrue(ex.getMessage().contains("Mandatory information missing!"));
+```
+
 3. F || F || T (user и password not null, email=null)
 - user и password не се null односно се false, email е null односно true.
 
+```
+User user2 = new User("abc", "abc123", null);
+ex = assertThrows(RuntimeException.class, () -> SILab2.function(user2, users));
+assertTrue(ex.getMessage().contains("Mandatory information missing!"));
+```
+
+
 4. F || F || F (сите not null)
 - единствен случај во кој условот не е исполнет.
+
+```
+User user3 = new User("abcd", "Abc1234@!", "abcd@gmail.com");
+assertTrue(SILab2.function(user3, users));
+```
