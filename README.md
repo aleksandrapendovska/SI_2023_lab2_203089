@@ -2,7 +2,8 @@
 
 ## 2. Central Flow Graph:
 
-![si lab2 drawio](https://github.com/aleksandrapendovska/SI_2023_lab2_203089/assets/128921508/fd8438c1-3f07-483f-8567-df15034aa179)
+![si lab2 drawio](https://github.com/aleksandrapendovska/SI_2023_lab2_203089/assets/128921508/6cdff2bd-9499-4106-9a6e-d6dd11b474b5)
+
 
 
 ## 3. Цикломатска комплексност:
@@ -10,7 +11,7 @@
 
 
 ## 4. Every Branch:
-<img width="599" alt="every branchh" src="https://github.com/aleksandrapendovska/SI_2023_lab2_203089/assets/128921508/040af9cc-3de4-45a2-8130-ceb14b75c3f7">
+<img width="599" alt="every branchh" src="https://github.com/aleksandrapendovska/SI_2023_lab2_203089/assets/128921508/d571e544-0446-47f1-8a3b-1e4f50a8cd0c">
 
 **Прв тест:**
 ```
